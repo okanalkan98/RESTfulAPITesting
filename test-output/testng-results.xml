@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="8" failed="10" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-10-02T00:39:36Z" name="Suite" finished-at="2018-10-02T00:39:47Z" duration-ms="11291">
+    <groups>
+    </groups>
+    <test started-at="2018-10-02T00:39:36Z" name="Test" finished-at="2018-10-02T00:39:47Z" duration-ms="11291">
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest">
+        <test-method signature="VerifyContentTypeWithAssertThat()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:44Z" name="VerifyContentTypeWithAssertThat" finished-at="2018-10-02T00:39:45Z" duration-ms="620" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.VerifyContentTypeWithAssertThat(RESTfulApiGetRequest.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyContentTypeWithAssertThat -->
+        <test-method signature="getWithHeaders()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:45Z" name="getWithHeaders" finished-at="2018-10-02T00:39:45Z" duration-ms="415" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.getWithHeaders(RESTfulApiGetRequest.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithHeaders -->
+        <test-method signature="negativeGet()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:45Z" name="negativeGet" finished-at="2018-10-02T00:39:46Z" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeGet -->
+        <test-method signature="printResponse()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:46Z" name="printResponse" finished-at="2018-10-02T00:39:46Z" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printResponse -->
+        <test-method signature="simpleGet()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:46Z" name="simpleGet" finished-at="2018-10-02T00:39:47Z" duration-ms="443" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.simpleGet(RESTfulApiGetRequest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleGet -->
+        <test-method signature="verifyName()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest@fd07cbb]" started-at="2018-10-02T00:39:47Z" name="verifyName" finished-at="2018-10-02T00:39:47Z" duration-ms="570" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.verifyName(RESTfulApiGetRequest.java:97)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyName -->
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest">
+        <test-method signature="postUsingHashMap()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest@7c1e2a9e]" started-at="2018-10-02T00:39:36Z" name="postUsingHashMap" finished-at="2018-10-02T00:39:39Z" duration-ms="2940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingHashMap -->
+        <test-method signature="postUsingPOJO()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest@7c1e2a9e]" started-at="2018-10-02T00:39:39Z" name="postUsingPOJO" finished-at="2018-10-02T00:39:40Z" duration-ms="481" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest.postUsingPOJO(RESTfulApiPostRequest.java:91)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postUsingPOJO -->
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath">
+        <test-method signature="importJsonFromFile()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:42Z" name="importJsonFromFile" finished-at="2018-10-02T00:39:42Z" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- importJsonFromFile -->
+        <test-method signature="testItemsCountFromResponseBody()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:42Z" name="testItemsCountFromResponseBody" finished-at="2018-10-02T00:39:43Z" duration-ms="317" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testItemsCountFromResponseBody(RESTfulApiJasonPath.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testItemsCountFromResponseBody -->
+        <test-method signature="testJasonPathWithList()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:43Z" name="testJasonPathWithList" finished-at="2018-10-02T00:39:43Z" duration-ms="545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJasonPathWithList -->
+        <test-method signature="testWithJasonPath()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:43Z" name="testWithJasonPath" finished-at="2018-10-02T00:39:44Z" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithJasonPath -->
+        <test-method signature="testWithPathParameter()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:44Z" name="testWithPathParameter" finished-at="2018-10-02T00:39:44Z" duration-ms="297" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testWithPathParameter(RESTfulApiJasonPath.java:88)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithPathParameter -->
+        <test-method signature="testWithQueryParameterAndList()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath@2b4bac49]" started-at="2018-10-02T00:39:44Z" name="testWithQueryParameterAndList" finished-at="2018-10-02T00:39:44Z" duration-ms="437" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testWithQueryParameterAndList(RESTfulApiJasonPath.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithQueryParameterAndList -->
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON">
+        <test-method signature="convertJsonToListOfMaps()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON@3f56875e]" started-at="2018-10-02T00:39:40Z" name="convertJsonToListOfMaps" finished-at="2018-10-02T00:39:40Z" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- convertJsonToListOfMaps -->
+        <test-method signature="jsonValidationOfComments()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON@3f56875e]" started-at="2018-10-02T00:39:40Z" name="jsonValidationOfComments" finished-at="2018-10-02T00:39:41Z" duration-ms="632" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON.jsonValidationOfComments(RESTfulApiGSON.java:118)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonValidationOfComments -->
+        <test-method signature="jsonValidationOfTodo()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON@3f56875e]" started-at="2018-10-02T00:39:41Z" name="jsonValidationOfTodo" finished-at="2018-10-02T00:39:41Z" duration-ms="706" status="FAIL">
+          <exception class="java.lang.SecurityException">
+            <message>
+              <![CDATA[class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.SecurityException: class "org.hamcrest.Matchers"'s signer information does not match signer information of other classes in the same package
+at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON.jsonValidationOfTodo(RESTfulApiGSON.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.SecurityException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonValidationOfTodo -->
+        <test-method signature="testWithJsonToHashMap()[pri:0, instance:RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON@3f56875e]" started-at="2018-10-02T00:39:41Z" name="testWithJsonToHashMap" finished-at="2018-10-02T00:39:42Z" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithJsonToHashMap -->
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

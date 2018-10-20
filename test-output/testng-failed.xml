@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest">
+        <methods>
+          <include name="simpleGet"/>
+          <include name="VerifyContentTypeWithAssertThat"/>
+          <include name="getWithHeaders"/>
+          <include name="verifyName"/>
+        </methods>
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON">
+        <methods>
+          <include name="jsonValidationOfTodo"/>
+          <include name="jsonValidationOfComments"/>
+        </methods>
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath">
+        <methods>
+          <include name="testWithPathParameter"/>
+          <include name="testWithQueryParameterAndList"/>
+          <include name="testItemsCountFromResponseBody"/>
+        </methods>
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath -->
+      <class name="RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest">
+        <methods>
+          <include name="postUsingPOJO"/>
+        </methods>
+      </class> <!-- RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">8</td><td class="num">0</td><td class="num attn">10</td><td class="num">11,291</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON</td><td><a href="#m0">jsonValidationOfComments</a></td><td rowspan="1">1538440780537</td><td rowspan="1">632</td></tr><tr class="failedeven"><td><a href="#m1">jsonValidationOfTodo</a></td><td rowspan="1">1538440781176</td><td rowspan="1">706</td></tr><tr class="failedodd"><td rowspan="4">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest</td><td><a href="#m2">VerifyContentTypeWithAssertThat</a></td><td rowspan="1">1538440784898</td><td rowspan="1">620</td></tr><tr class="failedodd"><td><a href="#m3">getWithHeaders</a></td><td rowspan="1">1538440785528</td><td rowspan="1">415</td></tr><tr class="failedodd"><td><a href="#m4">simpleGet</a></td><td rowspan="1">1538440786967</td><td rowspan="1">443</td></tr><tr class="failedodd"><td><a href="#m5">verifyName</a></td><td rowspan="1">1538440787414</td><td rowspan="1">570</td></tr><tr class="failedeven"><td rowspan="3">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath</td><td><a href="#m6">testItemsCountFromResponseBody</a></td><td rowspan="1">1538440782756</td><td rowspan="1">317</td></tr><tr class="failedeven"><td><a href="#m7">testWithPathParameter</a></td><td rowspan="1">1538440784147</td><td rowspan="1">297</td></tr><tr class="failedeven"><td><a href="#m8">testWithQueryParameterAndList</a></td><td rowspan="1">1538440784453</td><td rowspan="1">437</td></tr><tr class="failedodd"><td rowspan="1">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest</td><td><a href="#m9">postUsingPOJO</a></td><td rowspan="1">1538440779685</td><td rowspan="1">481</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON</td><td><a href="#m10">convertJsonToListOfMaps</a></td><td rowspan="1">1538440780187</td><td rowspan="1">342</td></tr><tr class="passedeven"><td><a href="#m11">testWithJsonToHashMap</a></td><td rowspan="1">1538440781899</td><td rowspan="1">363</td></tr><tr class="passedodd"><td rowspan="2">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest</td><td><a href="#m12">negativeGet</a></td><td rowspan="1">1538440785947</td><td rowspan="1">645</td></tr><tr class="passedodd"><td><a href="#m13">printResponse</a></td><td rowspan="1">1538440786596</td><td rowspan="1">363</td></tr><tr class="passedeven"><td rowspan="3">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath</td><td><a href="#m14">importJsonFromFile</a></td><td rowspan="1">1538440782274</td><td rowspan="1">473</td></tr><tr class="passedeven"><td><a href="#m15">testJasonPathWithList</a></td><td rowspan="1">1538440783078</td><td rowspan="1">545</td></tr><tr class="passedeven"><td><a href="#m16">testWithJasonPath</a></td><td rowspan="1">1538440783633</td><td rowspan="1">513</td></tr><tr class="passedodd"><td rowspan="1">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest</td><td><a href="#m17">postUsingHashMap</a></td><td rowspan="1">1538440776741</td><td rowspan="1">2940</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON#jsonValidationOfComments</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON.jsonValidationOfComments(RESTfulApiGSON.java:118)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON#jsonValidationOfTodo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON.jsonValidationOfTodo(RESTfulApiGSON.java:83)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#VerifyContentTypeWithAssertThat</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.VerifyContentTypeWithAssertThat(RESTfulApiGetRequest.java:78)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#getWithHeaders</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.getWithHeaders(RESTfulApiGetRequest.java:48)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#simpleGet</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.simpleGet(RESTfulApiGetRequest.java:26)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#verifyName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest.verifyName(RESTfulApiGetRequest.java:97)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#testItemsCountFromResponseBody</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testItemsCountFromResponseBody(RESTfulApiJasonPath.java:44)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#testWithPathParameter</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testWithPathParameter(RESTfulApiJasonPath.java:88)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#testWithQueryParameterAndList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath.testWithQueryParameterAndList(RESTfulApiJasonPath.java:64)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest#postUsingPOJO</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.SecurityException: class &quot;org.hamcrest.Matchers&quot;&apos;s signer information does not match signer information of other classes in the same package
+	at java.base/java.lang.ClassLoader.checkCerts(ClassLoader.java:1141)
+	at java.base/java.lang.ClassLoader.preDefineClass(ClassLoader.java:896)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1005)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:801)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:699)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:622)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:580)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:185)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:496)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:131)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)
+	at RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest.postUsingPOJO(RESTfulApiPostRequest.java:91)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON#convertJsonToListOfMaps</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGSON#testWithJsonToHashMap</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#negativeGet</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiGetRequest#printResponse</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#importJsonFromFile</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#testJasonPathWithList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiJasonPath#testWithJasonPath</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">RESTfulAPITesting.RESTfulAPITesting.RESTfulApiPostRequest#postUsingHashMap</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
